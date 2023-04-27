@@ -1,3 +1,16 @@
+import Nav from '../components/nav';
+import Head from 'next/head';
+
+
+
 export default function Contact() {
-    return <h1>Contact Me!</h1>
+    return (
+        <>
+         <Head>
+            <title>contact</title>
+        </Head>
+        <Nav/>
+        <h1>contact me!</h1>
+        </>
+    );
 }

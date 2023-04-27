@@ -1,18 +1,27 @@
-import Head from 'next/head';
-import Link from 'next/link';
+import Head from "next/head";
+import Link from "next/link";
+import styles from "./nav.module.css";
 
-const name = 'Treavor';
-export const siteTitle = 'twills';
+const name = "Treavor";
+export const siteTitle = "twills";
 
-export default function Layout( { children, home }) {
-    return(
-        <>
-        <Link href='/'>treavor</Link>
-        <ul>
-            <li><Link href='/about'>about</Link></li>
-            <li><Link href='/experience'>experience</Link></li>
-            <li><Link href='/contact'>contact</Link></li>
-        </ul>
-        </>
-    );
+export default function Nav() {
+  return (
+    <div className={styles.nav}>
+      <Link href="/">
+        treavor
+      </Link>
+      <ul className={styles.ul}>
+        <li className={styles.li}>
+          <Link href="/about">about</Link>
+        </li>
+        <li className={styles.li}>
+          <Link href="/experience">experience</Link>
+        </li>
+        <li className={styles.li}>
+          <Link href="/contact">contact</Link>
+        </li>
+      </ul>
+    </div>
+  );
 }

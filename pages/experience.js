@@ -1,4 +1,4 @@
-import Nav from '../components/nav';
+import Nav from '../components/navBar';
 import Head from 'next/head';
 
 
@@ -8,7 +8,6 @@ export default function Experience (){
          <Head>
             <title>experience</title>
         </Head>
-        <Nav/>
         <h1>experience</h1>
         </>
     );

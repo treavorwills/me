@@ -1,4 +1,4 @@
-import Nav from '../components/nav';
+import Nav from '../components/navBar';
 import Head from 'next/head';
 
 export default function About() {
@@ -7,8 +7,7 @@ export default function About() {
         <Head>
             <title>about</title>
         </Head>
-        <Nav/>
-        <h1>about</h1>
+        <h1>about stuff</h1>
         </>
     )
 }

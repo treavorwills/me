@@ -1,4 +1,4 @@
-import Nav from '../components/nav';
+import Nav from '../components/navBar';
 import Head from 'next/head';
 
 
@@ -9,7 +9,6 @@ export default function Contact() {
          <Head>
             <title>contact</title>
         </Head>
-        <Nav/>
         <h1>contact me!</h1>
         </>
     );

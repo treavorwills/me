@@ -9,15 +9,17 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <>
+    <Layout home>
       <Head>
         <title>twills</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <h1>home</h1>
+        <p>developer</p>
+        <p>unconvincing magician</p>
+        <p>okay parent</p>
       </main>
-    </>
+    </Layout>
   );
 }
